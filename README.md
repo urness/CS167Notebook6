@@ -9,7 +9,7 @@ For this notebook, you will train a convolutional neural network for an image re
 The assignment is to run an experiment where you try a basic CNN network and then try a variation on it to see what happens. I will be looking for the following:
 
 1. In a mark-down cell near the top of your notebook, give a brief explanation of your problem.  
-2. Build a **baseline CNN** that has this structure:
+2. Build a **baseline CNN** that has incorporates convolution layers and pooling layers. Something like this:
   - Conv layer 1
   - Pool layer 1
   - Conv layer 2
@@ -22,9 +22,10 @@ The assignment is to run an experiment where you try a basic CNN network and the
 
 4. **Include graphs** of how well your testing data performed vs. the training data.
 
-5. **Conclusions**: Answer the following questions in a markup cell at the bottom of your notebook.
+5. **Conclusions**: *Thoroughly* answer the following questions in a markup cell at the bottom of your notebook.
     - What configuration of your CNN proved to be more accurate? Why do you think this is the case?
-    - How accurate can you make your CNN predictor? I will award a bonus point to the student who can achieve the most accurate model.
+    - Did your model overfit? Why or why not?
+  
 
 Use a Markup cell to put your name at the top of the file. Rename your file LastnameNotebook6.ipynb and submit the link to your repository to Blackboard.
 
